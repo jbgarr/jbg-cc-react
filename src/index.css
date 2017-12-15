@@ -1,0 +1,77 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*--------------------------------- 
+/ General
+---------------------------------*/
+.loader {
+  padding: 20px;
+  text-align: center;
+}
+
+/*--------------------------------- 
+/ Users Page
+---------------------------------*/
+.users-page .padded-top {
+  padding-top: 24px;
+}
+
+.or-Wrap {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.or {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.or span {
+  font-size: 24px;
+    padding: 8px;
+    border: 2px solid rgb(173, 216, 230);
+    background: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+}
+
+/*--------------------------------- 
+/ User Details
+---------------------------------*/
+.user-card {
+  width: 400px;
+  max-width: 100%;
+  margin: 0 auto 12px;
+}
+
+.avatar-Backgroud {
+  background: lightblue;
+  height: 130px
+}
+
+.avatar {
+  border: 5px solid white;
+  width: 200px;
+  max-width: 100%;
+  display: block;
+  margin: -100px auto 0;
+}
+
+.nav.nav-tabs {
+  margin-bottom: 12px;
+}
+
+.repos-list {
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+.card.repo {
+  margin-bottom: 6px;
+}
+
+.card.repo .card-title a {
+  font-size: 24px;
+}
